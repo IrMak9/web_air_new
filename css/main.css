@@ -1,0 +1,15 @@
+@import url('./general/common.css');
+@import url('./general/hero.css');
+@import url('./general/tours.css');
+@import url('./general/sale.css');
+@import url('./general/info.css');
+@import url('./general/footer.css');
+@import url('./serv/serv-hero.css');
+@import url('./serv/serv-main.css');
+@import url('./serv/serv-partners.css');
+@import url('./reviews/reviews.css');
+@import url('./index.css');
+@import url('./reviews/rev-main.css');
+@import url('./reviews/advert.css');
+@import url('./reviews/form.css');
+

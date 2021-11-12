@@ -1,0 +1,90 @@
+
+.form__rev {
+    background: #F4F5F5;
+}
+.form__title {
+    padding-bottom: 57px;
+    padding-top: 62px;
+}
+.fopm-row {
+    display: flex;
+    margin-bottom: 26px;
+}
+.fopm__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    padding: 21px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+    line-height: 24px;
+}
+.fopm__input:hover {
+border: 1px solid #F5170E;
+}
+.fopm__input::placeholder {
+   
+    color: #666666;
+}
+.fopm__input:last-child {
+    margin-right: 0px;
+}
+.fopm__input--textarea {
+    height: 235px;
+    width: 1142px;
+}
+.form__elem {
+    cursor: pointer;
+}
+.form__checkbox:checked ~ .form__tag {
+    background: #B9EAE4;
+}
+.form__checkbox {
+display: none;
+}
+.form__conrtols {
+    display: flex;
+    margin-bottom: 32px;
+}
+.form__controls-title {
+    width: 33%;
+}
+.form__list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form__item {
+    margin-right: 7px;
+    margin-bottom: 9px;
+}
+.form__controls-title {
+    font-size: 18px;
+    color: #1A1B1E;
+}
+button {
+    background: transparent;
+    border:none ;
+    color:#FFFFFF ;
+    cursor: pointer;
+}
+.btn--black {
+    background:#8E8E8E
+    
+}
+.btn--black:hover {
+    background: #2B2B2B;
+}
+.form__btn-btn {
+    margin-right: 17px;
+}
+
+.form__btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.fotm__cont {
+    padding-bottom: 96px;
+}

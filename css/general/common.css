@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+body, html {
+    height: 100%;
+}
+* {
+    font-family:'Open Sans', sans-serif;
+}
+body {
+    background:  #001821;
+    color: #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 1.42;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+   }
+
+a {
+    color: inherit;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,h2,h3,h4,p {
+    margin: 0;
+    font-weight: normal;
+
+}
+* {
+    box-sizing: border-box;
+}
+.wrapper--index {
+    background: url(../../pic/1.png) center top no-repeat, url(../../pic/2.png) center bottom no-repeat;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

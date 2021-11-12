@@ -1,0 +1,33 @@
+.advert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 363px;
+    background: url(../../pic/Rectangle.png) center no-repeat ;
+    
+}
+.advert__cont {
+    display: inline-flex;
+    min-height: 363px;
+}
+.advert__title {
+    color:  #FFFFFF;
+    font-size: 48px;
+    font-weight:700;
+}
+.advert__info {
+    width: 595px;
+    margin: auto;
+
+}
+.advert__pic {
+    
+    padding-left: 25px;
+    width: 487px;
+    height: 341px; 
+}
+.advert__pic-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content:end; 
+}

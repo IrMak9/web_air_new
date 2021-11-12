@@ -1,0 +1,124 @@
+.end {
+    width: 1140px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.end__size {
+    min-height: 146px;
+}
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+.footer__col-right {
+    display: flex;
+    align-items: center;
+}
+.logo__pic-end {
+    display: block;
+    left: 0px;
+    margin-right: 79px;
+   
+ }
+ .logo__pic-end-size {
+    bottom: 65px;
+ }
+ .menu__end {
+    position: absolute;
+    
+    left: 164px;
+  
+}
+.menu__end-size {
+    bottom: 68px;
+}
+.menu__item-end {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 54px;
+}
+.menu__item-end {
+    font-size: 14px; 
+    text-decoration: none;
+}
+.menu__item-end:hover{
+    text-decoration: none;
+}
+.social {
+
+    margin-right: 74px;
+}
+.social__item {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    margin-right: 10px;
+    
+    
+}
+.social__item-pic {
+    display: block;
+    height: 36px;
+    width: 36px;
+}
+.social__item-telegram .social__item-pic {
+    background-image: url("../../pic/telegram.png");
+}
+.social__item-telegram .social__item-pic:hover {
+    background-image: url("../../pic/t1.png");
+    
+}
+.social__item-vk .social__item-pic {
+    background-image: url("../../pic/vk.png");
+}
+.social__item-vk .social__item-pic:hover {
+    background-image: url("../../pic/vk1.png");
+    
+}
+.social__item-fb .social__item-pic {
+    background-image: url("../../pic/f.png");
+}
+.social__item-fb .social__item-pic:hover {
+    background-image: url("../../pic/f1.png");
+    
+}
+.social__item-inst .social__item-pic {
+    background-image: url("../../pic/in.png");
+}
+.social__item-inst .social__item-pic:hover {
+    background-image: url("../../pic/in1.png");
+    
+}
+.contacts__end {
+    bottom:57px;
+    right:0px;
+    text-align: right;
+}
+.contacts__end-tell {
+    font-size: 26px;
+    font-style: normal;
+    text-decoration: none;
+}
+.contacts__end-info {
+    font-size: 11px;
+    font-style: normal;
+}
+.contacts__end-info:hover {
+    text-decoration: underline;
+}
+.end__line {
+    height: 4px ;
+    width: 1140px;
+    border: 1px solid #FFFFFF;
+    opacity: .3;
+    display: block;
+    position: absolute;
+    margin-left: 0px;
+    margin-bottom: 146px;
+}
+.end__size-min {
+    min-height: 132px;
+}

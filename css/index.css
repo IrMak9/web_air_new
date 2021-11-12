@@ -1,0 +1,55 @@
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 960px;
+    width: 1920;
+    background: url("../pic/bg.png") center bottom;
+}
+
+.welcome__title {
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+.welcome__central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome__container-pic {
+    height: 248px;
+    width: 591px;
+    background: url("../pic/shades.png") no-repeat;
+   
+}
+.welcome__central {
+    opacity: 0;
+animation: zoom 1s ease-in-out;
+animation-fill-mode: forwards;
+}
+@keyframes zoom {
+    from {
+transform: scale(0.7);
+    }
+    20% {
+        transform: scale(1.15);   
+    }
+    40% {
+        transform: scale(0.9);   
+    }
+    60% {
+        transform: scale(1.1);   
+    }
+    80% {
+        transform: scale(0.95);   
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

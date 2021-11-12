@@ -1,0 +1,108 @@
+.tours__title-block {
+    display: inline-block;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 51px;
+    font-weight: bold;
+    margin-top: 264px;
+}
+.sale__title{
+    display: inline-block;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 51px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.tours__pic-img {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.tours__list {
+    display: flex;
+    justify-content: space-between;
+}
+.tours__item {
+    min-height: 304px;
+    background:  #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 127px;
+    width: calc(100% / 3 - 18px);
+    vertical-align: top;
+}
+.tours__pic-wrap{
+    min-height: 144px;
+    margin-bottom: 33px;
+}
+.tours__pic {
+    object-fit: cover;
+}
+.tours__item:last-child{
+    margin-right: 0;
+}
+.tours__title {
+    font-size: 24px;
+    line-height: 1.1;
+    margin: 0px 0px 23px 22px;
+    font-weight: bold;
+    color: #000000;
+}
+.tours__serve-item{
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 26px;
+    font-weight: 400;
+    color: #666666;
+    display: inline-block;
+}
+.tours__item-srerve {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 26px;
+    font-weight: 400;
+    color: #666666;
+    display: inline-block;
+}
+.tours__serve-pic {
+    display: inline-block;
+    margin-left: 21px;
+}
+.tours__serve-descr {
+    display: inline-block;
+    margin-left: 10px;
+}
+.descr {
+   color: #303030;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 400;
+    margin: 0px 16px 24px 22px;
+    text-align: left;
+
+}
+.tours__btn {
+    min-height: 63px;
+    padding-bottom: 44px;
+    padding-top: 18px;
+    padding-left: 24px;
+}
+
+.tours__btn--white {
+    background: #FFFFFF;
+    color: #F5170E;
+    border:2px solid #F5170E;
+    padding: 18px 30px;
+    border-radius: 30px;
+     
+}
+.tours__btn--white:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+    border:2px solid #F5170E;
+}
+.tours__btn--red {
+    background: #F5170E;
+    color: #FFFFFF;
+    border:2px solid #F5170E;
+}
